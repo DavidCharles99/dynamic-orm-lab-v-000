@@ -1,5 +1,7 @@
 require_relative "../config/environment.rb"
 require 'active_support/inflector'
+require 'pry'
+require 'sqlite3'
 
 class InteractiveRecord
   def self.table_name
